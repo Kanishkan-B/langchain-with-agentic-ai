@@ -1,5 +1,5 @@
 [project]
-name = "LANGCHAIN-COURSE"
+name = "langchain-with-agentic-ai"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -9,7 +9,15 @@ dependencies = [
     "isort>=9.0.1",
     "langchain>=1.4.0",
     "langchain-ollama>=1.1.0",
-    "langchain-openai>=1.6.0",
+    "langchain-openai>=1.6.2",
     "langchain-tavily>=0.2.18",
     "python-dotenv>=1.2.3",
+    "tavily>=1.1.0",
 ]
+
+[project.scripts]
+langchain-with-agentic-ai = "langchain_with_agentic_ai:main"
+
+[build-system]
+requires = ["uv_build>=0.12.13,<0.13.0"]
+build-backend = "uv_build"

@@ -3,4 +3,4 @@ isort>=9.0.1
 langchain>=1.4.0
 langchain-openai>=1.6.0
 python-dotenv>=1.2.3
-langchain_ollama
+langchain-ollama
